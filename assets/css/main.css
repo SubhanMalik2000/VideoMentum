@@ -543,7 +543,14 @@ h6 {
 .footer .footer-links ul a:hover {
   color: var(--accent-color);
 }
-
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+}
+.footer-contact a {
+  color: white;
+  margin-bottom: 5px;
+}
 .footer .footer-contact p {
   margin-bottom: 5px;
 }
